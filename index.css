@@ -1,0 +1,149 @@
+*
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.navbar
+{
+   display: flex;
+   border: 2px solid green;
+   padding: 1em;
+   gap:30%;
+   position: sticky;
+   top:0;
+   z-index: 9999;
+  background-color:  rgb(209, 66, 122);
+   height: 50%;
+   font-size: 1.5rem;
+  }
+.list ul li
+{
+ display: inline;
+  margin-right: 30px;
+  font-size: 1rem;
+font-weight: bold;
+  color:black;
+  font-size: 1.5rem;
+  }
+.navbar p{
+    margin-right: 20px;
+    font-weight: bold;
+}
+div ul{
+    margin-left: 20px;
+}
+ .section
+{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: flex-start;
+ height:100vh;
+ justify-content: center;
+ background-image: url(./shopimg/img2.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ }
+.section h1{
+  color:rgb(16, 17, 19);
+  padding-bottom: 30px;
+ margin-left: 5%;
+ font-size: 3rem;
+}
+.section p{
+  margin-left: 5%;
+  font-size: 2rem;
+}
+.section button{
+  padding: 1em;
+  margin-left: 5%;
+  color:black;
+  font-weight: bolder;
+  border-radius:10% ;
+  margin-top: 4%;
+font-size: .8rem;
+
+}
+.section button:hover
+{
+  background-color: yellow;
+  width:100px;
+}
+ .icon{
+  border: 2px solid black;
+ margin-left: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  font-size: 1rem;
+  padding:.5em;
+  font-weight: bold;
+}
+.subhead h1
+{
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.pictures
+{
+  border: 2px solid red;
+  width:100%;
+   background-color:rgb(255, 204, 224);
+  
+  display:grid;
+grid-gap:10px;
+grid-template-columns: repeat(6,8fr);
+}
+.pictures img{
+
+width: 100%;
+height: 50%;
+}
+.picdesc
+{
+  border: 2px solid black;
+  border-radius: 2%;
+  padding: 0.9em;
+}
+.picdesc p 
+{
+  margin-left: 5%;
+}
+.picdesc h2{
+  margin-left: 5%;
+  color:brown;
+}
+.picdesc button{
+  margin: 5%;
+  padding:.5em;
+ 
+}
+.picdesc button:hover{
+  background-color: brown;
+  font-weight: bold;
+}
+.footer
+{
+  border:2px solid red;
+  margin-top: 1%;
+  padding:.5em;
+  display: flex;
+ justify-content: center;
+ gap:2%;
+ height:100px;
+ background-color:rgb(255, 153, 194) ;
+
+}
+.footer   ion-icon
+{
+  color:green;
+  font-size: 40px;
+  
+}
+
+
+ 
